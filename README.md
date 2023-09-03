@@ -1,7 +1,5 @@
-# Scroll-effect_
-Сайт с красивым эффектом прокручивания. HTML, SASS, JavaScript(gsap), Gulp
 <h1 align="center"> 
-	Сайт с красивым эффектом прокручивания.
+	# Сайт с красивым эффектом прокручивания.
 	<img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/>
 </h1>
 
