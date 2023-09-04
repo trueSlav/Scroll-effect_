@@ -1,0 +1,38 @@
+.portfolio
+	
+	.gallery
+		display: flex
+		padding: calc( $index * 8 ) 0
+
+		> *
+			flex: 1
+			display: flex
+			align-items: center
+			flex-direction: column
+
+		&__item
+			max-width: calc( $index * 21 )
+			max-height: 180vh
+			margin-bottom: $gallery-gap
+			border-radius: 8px
+
+		&__left
+			margin-top: calc( $gallery-gap * 1.75)
+
+		&__right
+			.gallery__item
+				margin: 0
+				margin-top: $gallery-gap
+
+		.text-block
+			color: $c-text
+			position: relative
+
+			&__h
+				font-size: 2rem
+				line-height: 2.4rem
+				color: $c-header
+				margin-bottom: 1.5rem
+
+			&__p
+				line-height: 1.75rem
